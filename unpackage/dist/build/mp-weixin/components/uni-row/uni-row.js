@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-row/uni-row"],{"6efa":function(t,n,e){"use strict";e.r(n);var u=e("dcc6"),r=e("ce39");for(var a in r)"default"!==a&&function(t){e.d(n,t,(function(){return r[t]}))}(a);e("b476");var i,c=e("f0c5"),o=Object(c["a"])(r["default"],u["b"],u["c"],!1,null,null,null,!1,u["a"],i);n["default"]=o.exports},b476:function(t,n,e){"use strict";var u=e("e61a"),r=e.n(u);r.a},ce39:function(t,n,e){"use strict";e.r(n);var u=e("ee5b"),r=e.n(u);for(var a in u)"default"!==a&&function(t){e.d(n,t,(function(){return u[t]}))}(a);n["default"]=r.a},dcc6:function(t,n,e){"use strict";var u;e.d(n,"b",(function(){return r})),e.d(n,"c",(function(){return a})),e.d(n,"a",(function(){return u}));var r=function(){var t=this,n=t.$createElement,e=(t._self._c,Number(t.marginValue)),u=Number(t.marginValue);t.$mp.data=Object.assign({},{$root:{m0:e,m1:u}})},a=[]},e61a:function(t,n,e){},ee5b:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var u="uni-row",r="--",a={name:"uniRow",componentName:"uniRow",options:{virtualHost:!0},props:{type:String,gutter:Number,justify:{type:String,default:"start"},align:{type:String,default:"top"},width:{type:[String,Number],default:750}},created:function(){},computed:{marginValue:function(){return this.gutter?-this.gutter/2:0},typeClass:function(){return"flex"===this.type?"".concat(u+r,"flex"):""},justifyClass:function(){return"start"!==this.justify?"".concat(u+r,"flex-justify-").concat(this.justify):""},alignClass:function(){return"top"!==this.align?"".concat(u+r,"flex-align-").concat(this.align):""}}};n.default=a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-row/uni-row-create-component',
+    {
+        'components/uni-row/uni-row-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("6efa"))
+        })
+    },
+    [['components/uni-row/uni-row-create-component']]
+]);
